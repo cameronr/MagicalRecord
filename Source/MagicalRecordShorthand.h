@@ -5,16 +5,16 @@
 
 
 
-@interface NSManagedObject (NSManagedObject_DataImportShortHand)
-- (void) importValuesForKeysWithDictionary:(id)objectData;
-- (void) updateValuesForKeysWithDictionary:(id)objectData;
-+ (id) importFromDictionary:(NSDictionary *)data;
-+ (id) importFromDictionary:(NSDictionary *)data inContext:(NSManagedObjectContext *)context;
-+ (NSArray *) importFromArray:(NSArray *)listOfObjectData;
-+ (NSArray *) importFromArray:(NSArray *)listOfObjectData inContext:(NSManagedObjectContext *)context;
-+ (id) updateFromDictionary:(NSDictionary *)objectData;
-+ (id) updateFromDictionary:(NSDictionary *)objectData inContext:(NSManagedObjectContext *)context;
-@end
+//@interface NSManagedObject (NSManagedObject_DataImportShortHand)
+//- (void) importValuesForKeysWithDictionary:(id)objectData;
+//- (void) updateValuesForKeysWithDictionary:(id)objectData;
+//+ (id) importFromDictionary:(NSDictionary *)data;
+//+ (id) importFromDictionary:(NSDictionary *)data inContext:(NSManagedObjectContext *)context;
+//+ (NSArray *) importFromArray:(NSArray *)listOfObjectData;
+//+ (NSArray *) importFromArray:(NSArray *)listOfObjectData inContext:(NSManagedObjectContext *)context;
+//+ (id) updateFromDictionary:(NSDictionary *)objectData;
+//+ (id) updateFromDictionary:(NSDictionary *)objectData inContext:(NSManagedObjectContext *)context;
+//@end
 @interface NSManagedObject (MagicalRecordShortHand)
 + (NSUInteger) defaultBatchSize;
 + (void) setDefaultBatchSize:(NSUInteger)newBatchSize;

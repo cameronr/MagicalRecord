@@ -24,6 +24,8 @@
 #define MR_AUTORELEASE(xx)  ((void)0)
 #endif
 
+#define MR_SHORTHAND
+
 #ifdef MR_SHORTHAND
 #import "MagicalRecordShorthand.h"
 #endif
@@ -37,9 +39,9 @@
 #import "NSManagedObjectModel+MagicalRecord.h"
 #import "NSPersistentStore+MagicalRecord.h"
 
-#import "NSManagedObject+MagicalDataImport.h"
-#import "NSNumber+MagicalDataImport.h"
-#import "NSObject+MagicalDataImport.h"
-#import "NSAttributeDescription+MagicalDataImport.h"
-#import "NSRelationshipDescription+MagicalDataImport.h"
-#import "NSEntityDescription+MagicalDataImport.h"
+//#import "NSManagedObject+MagicalDataImport.h"
+//#import "NSNumber+MagicalDataImport.h"
+//#import "NSObject+MagicalDataImport.h"
+//#import "NSAttributeDescription+MagicalDataImport.h"
+//#import "NSRelationshipDescription+MagicalDataImport.h"
+//#import "NSEntityDescription+MagicalDataImport.h"
