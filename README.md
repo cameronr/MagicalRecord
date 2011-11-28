@@ -30,7 +30,7 @@ To get started, first, import the header file *CoreData+MagicalRecord.h* in your
 Next, somewhere in your app delegate, in either the applicationDidFinishLaunching:(UIApplication *) withOptions:(NSDictionary *) method, or awakeFromNib, use **one** of the following setup calls with the MagicalRecordHelpers class:
 
 	+ (void) setupCoreDataStack;
-	+ (void) setupAutoMigratingDefaultCoreDataStack;
+	+ (void) setupAutoMigratingCoreDataStack;
 	+ (void) setupCoreDataStackWithInMemoryStore;
 	+ (void) setupCoreDataStackWithStoreNamed:(NSString *)storeName;
 	+ (void) setupCoreDataStackWithAutoMigratingSqliteStoreNamed:(NSString *)storeName;
